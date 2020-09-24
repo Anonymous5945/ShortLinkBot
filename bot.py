@@ -56,7 +56,7 @@ WEBHOOK_PATH = f"/{API_TOKEN}"
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 # webserver settings
 WEBAPP_HOST = "0.0.0.0"
-WEBAPP_PORT = int(os.environ.get("PORT", "3001"))
+WEBAPP_PORT = int(os.environ.get("PORT", 3001))
 ALLOW_MULTIPLE_LINKS = bool(os.environ.get("ALLOW_MULTIPLE_LINKS", True))
 # -*- CONSTANTS -*-
 
