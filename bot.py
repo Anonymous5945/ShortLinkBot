@@ -40,7 +40,7 @@ SHORTEN_LINK_API_KEY = os.environ.get(
     None
 )
 IS_WEBHOOK = bool(os.environ.get("IS_WEBHOOK", False))
-START_TEXT = os.environ.get("START_TEXT", "send a link 😡😡")
+START_TEXT = os.environ.get("START_TEXT", "send a link")
 CHECKING_TEXT = os.environ.get("CHECKING_TEXT", "🤔")
 NO_LINKS_PROVIDED = os.environ.get(
     "NO_LINKS_PROVIDED",
