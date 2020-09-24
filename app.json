@@ -26,6 +26,9 @@
         },
         "SHORTEN_LINK_API_KEY": {
             "description": "Your GPLinks token, as a string."
+        },
+        "SHORTEN_LINK_API_URL": {
+            "description": "Your GPLinks url."
         }
     },
     "formation": {
