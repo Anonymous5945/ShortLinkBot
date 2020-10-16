@@ -39,7 +39,7 @@ SHORTEN_LINK_API_KEY = os.environ.get(
     "SHORTEN_LINK_API_KEY",
     None
 )
-IS_WEBHOOK = bool(os.environ.get("IS_WEBHOOK", True))
+IS_WEBHOOK = bool(os.environ.get("IS_WEBHOOK", False))
 START_TEXT = os.environ.get("START_TEXT", "send a link")
 CHECKING_TEXT = os.environ.get("CHECKING_TEXT", "🤔")
 NO_LINKS_PROVIDED = os.environ.get(
@@ -48,7 +48,7 @@ NO_LINKS_PROVIDED = os.environ.get(
 )
 SHORTEN_LINK_API_URL = os.environ.get(
     "SHORTEN_LINK_API_URL",
-    None
+    "https://gplinks.in/api?api={api_token}&url={long_url}&format=text"
 )
 # webhook settings
 WEBHOOK_HOST = os.environ.get("URL", None)
@@ -56,8 +56,8 @@ WEBHOOK_PATH = f"/{API_TOKEN}"
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 # webserver settings
 WEBAPP_HOST = "0.0.0.0"
-WEBAPP_PORT = int(os.environ.get("PORT", 3001))
-ALLOW_MULTIPLE_LINKS = bool(os.environ.get("ALLOW_MULTIPLE_LINKS", True))
+WEBAPP_PORT = int(os.environ.get("PORT", "3001"))
+ALLOW_MULTIPLE_LINKS = bool(os.environ.get("ALLOW_MULTIPLE_LINKS", False))
 # -*- CONSTANTS -*-
 
 
