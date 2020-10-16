@@ -10,9 +10,9 @@
         "3",
         "multi"
     ],
-    "repository": "https://github.com/spechide/ShortLinkBot",
-    "success_url": "https://telegram.dog/SpEcHlDe",
-    "website": "https://github.com/spechide/ShortLinkBot",
+    "repository": "https://github.com/Anonymous5945/ShortLinkBot",
+    "success_url": "https://github.com/Anonymous5945/ShortLinkBot",
+    "website": "https://github.com/Anonymous5945/ShortLinkBot",
     "env": {
         "IS_WEBHOOK": {
             "description": "Setting this to ANYTHING will enable webhooks when in env mode",
